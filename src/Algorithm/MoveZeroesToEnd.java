@@ -19,14 +19,22 @@ public class MoveZeroesToEnd {
         for(int i = 0; i < n; i++){
             arr[i] = input.nextInt();
         }
-        int i = 0,j = 0;
-        while(i < n && j < n){
+//        int i = 0,j = 0;
+//        while(i < n && j < n){
+//            if(arr[j] != 0) j++;
+//            else if (arr[i] != 0){
+//                swap(arr,i,j);
+//                j++;
+//            }
+//            i++;
+//        }
+        int j = 0;
+        for(int i = 0; i < n; i++){
             if(arr[j] != 0) j++;
-            else if (arr[i] != 0){
+            else if(arr[i] != 0){
                 swap(arr,i,j);
                 j++;
             }
-            i++;
         }
         for (int k = 0; k < n; k++){
             System.out.print(arr[k] + " ");
