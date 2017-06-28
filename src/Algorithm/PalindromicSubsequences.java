@@ -44,6 +44,6 @@ public class PalindromicSubsequences {
 //        String str;
 //        Scanner sc = new Scanner(System.in);
 //        str = sc.nextLine();
-        System.out.println("Number of Palindromic Subsequences " + PalindromicSSnumber("aaaba"));
+        System.out.println("Number of Palindromic Subsequences " + PalindromicSSnumber("abba"));
     }
 }

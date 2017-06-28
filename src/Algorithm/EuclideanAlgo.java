@@ -5,7 +5,7 @@ import java.util.Scanner;
 /**
  * Created by deepak on 26/6/17.
  */
-public class EuclideanAlgo {
+public class EuclideanAlgo{
 
     public static int gcdRecursive(int a, int b){
         if(b == 0){

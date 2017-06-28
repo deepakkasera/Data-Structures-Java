@@ -5,6 +5,7 @@ import java.util.Scanner;
 /**
  * Created by deepak on 19/6/17.
  */
+
 public class MoveZeroesToEnd {
     public static void swap(int[] arr,int i,int j){
         int temp = arr[i];
