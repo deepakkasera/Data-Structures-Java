@@ -58,7 +58,7 @@ public class Stack {
         if (this.size() == 0){
             return true;
         }
-        return true;
+        return false;
     }
     public void display(){
         if (this.size() == 0){
