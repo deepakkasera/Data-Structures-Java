@@ -11,17 +11,17 @@ public class Queue {
     private int size;
     private int rear;
 
-
     public static final int DEFAULT_CAPACITY = 10;
+
+    public Queue () {
+        this(DEFAULT_CAPACITY);
+        // or we can do like this ==> new Queue(DEFAULT_CAPACITY);
+    }
 
     public Queue(int capacity) {
         this.data = new int[capacity];
         front = 0;
         size = 0;
-    }
-
-    public Queue () {
-        this(DEFAULT_CAPACITY);
     }
 
     public int size() {
